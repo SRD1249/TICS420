@@ -1,4 +1,4 @@
 {
-    "title": "Contact form",
-    "text": "The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty."
+    "title": "Contáctanos",
+    "text": "Para consultas llene el formulario, nos comunicaremos a la brevedad para resolver todas sus dudas. También puedes dirigirte a nuestra sección de 'Preguntas Frecuentes' para observar si tu duda ya ha sido resuelta"
 }

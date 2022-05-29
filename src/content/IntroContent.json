@@ -1,13 +1,9 @@
 {
-  "title": "Olmue Vive Turismo",
-  "text": "Tu solucion para ganar una ranked",
+  "title": "Vive el turismo de Olmué",
+  "text": "Cabalgatas, cabañas, trekking y más.",
   "button": [
     {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "Agenda Aquí"
     }
   ]
 }

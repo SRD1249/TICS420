@@ -42,13 +42,13 @@ const Header = ({t}: any) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => history.push('/about')}>
-          <Span>{t("About")}</Span>
+          <Span>{t("Sobre Nosotros")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>{t("Servicios")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{t("Reservas")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{width: "180px"}}
