@@ -31,7 +31,7 @@ const Home = () => {
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="Cabalgata.png"
         id="product"
       />
       <Contact

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledButton = styled("button")<any>`
-  background: ${(p) => p.color || "#2e186a"};
+  background: ${(p) => p.color || "#045904"};
   color: ${(p) => (p.color ? "#2E186A" : "#fff")};
   font-size: 1rem;
   font-weight: 700;
