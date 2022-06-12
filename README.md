@@ -3,104 +3,60 @@
 
 ## Proyecto TICS420 Olmue Vive Turismo
 
-[Landy]Objetivo del Proyecto: Crear un medio por el cual Olmue Vive Turismo sea capaz de agendar actividades de una manera mas eficaz y rapida mediante el uso de una
+Objetivo del Proyecto: Crear un medio por el cual Olmue Vive Turismo sea capaz de agendar actividades de una manera mas eficaz y rapida mediante el uso de una
 pagina web.
 
-This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
+En este proyecto se encuentrar trabajando una total de 4 Grupos distribuidos de la siguiente manera:
+Grupos Santiago Seccion 1 : FrontEnd
+Grupo Santiago Seccion 2: BackEnd
+Grupo Viña Seccion 1: Diseño
+## Tabla de Contenidos
 
-## Table of contents
-
-- [Features](#features)
-- [Google Lighthouse](#google-lighthouse)
-  - [Performance](#performance)
-  - [Accessibility](#accessibility)
-  - [Best Practices](#best-practices)
-  - [SEO](#seo)
+- [Caracteristicas](#caracteristicas)
 - [Demo](#demo)
 - [Installation](#installation)
 - [Special Thanks](#special-thanks)
 - [Usage](#usage)
 - [License](#license)
 
-## Features
+## Caracteristicas
 
-Your project will have everything you need to build a modern single-page React app:
+En este respositorio se encontrara todo lo enfocado al Front End del Proyecto, donde hicimos uso inicial de una platilla la cual se adaptara a las necesidades que teniamos, la plantilla tiene las siguientes caracteristicas:
 
-- 🎁 **Modern** – Template created using the latest features of React (State management using Hooks, Code-Splitting to reduce the bundle size)
+- Facil de utilizaar y entender
 
-- 💻 **Responsive** – Highly responsive and reusable UI components, that change depending on the provided props
+- Contenidos y Componentes en distintas carpetas para facil edicion
 
-- 🚀 **Fast** – Buttery smooth experience thanks to the implementation of best practices and no third party dependencies, resulting in <b>PERFECT</b> Google Lighthouse scores
+- Soporte para 2 Idiomas
 
-- 🏷 **TypeScript support** – Landy is written in TypeScript to improve the DX
+- Bloques de Contenido personalizables y animados
 
-- 🌍 **Internationalization** - Prebuilt standalone file that works in every environment and doesn't require reloading the page to translate the content
-
-- 🛸 **Routing** - Each file inside the src/pages directory will generate its own route, so you don't have to manually handle the routing
-
-- 🤙 **Contact Form** - Contact form written in React Hooks, with uncontrolled form validation to reduce unnecessary performance penalty. You just need to provide the endpoint
-
-- ⚙️ **Maintenance** - All of the content is stored in the JSON files, so that you can easily manage the content of the website
-
-## Google Lighthouse
-
-![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
-
-[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
-
-### Performance
-
-Audits for metrics like first paint and time to interactive to determine lag.
-
-### Accessibility
-
-Checks for common issues that may prevent users from accessing your content.
-
-### Best Practices
-
-Looks for everything from HTTPS usage to correct image aspect ratios.
-
-### SEO 
-
-Checks for best practices to ensure your site is discoverable.
+- Escrita principalmente en TypeScript y con los ultimas mejoras de React
 
 
 ## Demo
 
-Check the live demo here 👉️ https://landy-web.netlify.app/
+Demostracion de aspecto basico y funcionalidad de la plantilla utilizada 👉️ https://landy-web.netlify.app/
 
 
 ### Installation
 
-You’ll need to have Node 10.16.0 or later version on your local development machine (but it’s not required on the server). I recommend using the latest LTS version.
+Para visualizar la pagina es necesario tener una versiona actualizada de node.js e instalar los node_modules en la carpeta en la que se vaya a descargar el repositorio
+Por lo que el proceso desde cero para instalar este repositorio es:
 
-To create a new app, you have to:
 
-### npx
-
-Use the following command 
-
-```sh
-npx create-react-app my-app --template adrinlol
-cd my-app
+```
+//En Git Bash
+git clone https://github.com/SRD1249/TICS420
+// En terminal 
+npm install
 npm start
 ```
-
-## What's included
-
-- [axios][axios] - Promise based HTTP client for the browser and Node.js.
-- [antd][antd] - React UI library that contains a set of high quality components.
-- [react-awesome-reveal][react-awesome-reveal] - High performance library that adds reveal animations using the Intersection Observer API.
-- [styled-componets][styled-componets] - Variant on “CSS-in-JS”—which solves many of the problems with traditional CSS.
-- [i18next][i18next] - Internationalization-framework written in and for JavaScript.
 
 ## Special thanks
 
 [whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
 
-## Usage
-
-Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
 
 ## License
 
