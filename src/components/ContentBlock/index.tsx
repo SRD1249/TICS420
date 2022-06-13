@@ -1,3 +1,4 @@
+//Se define el bloque de contendido que contiene los bloques izquierdo y derecho.
 import LeftContentBlock from "./LeftContentBlock";
 import RightContentBlock from "./RightContentBlock";
 import { ContentBlockProps } from "./types";

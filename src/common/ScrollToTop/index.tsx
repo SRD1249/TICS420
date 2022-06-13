@@ -1,3 +1,4 @@
+//Se define la funcion para obtener y establecer la posición vertical de un scroll dentro de un elemento
 import { useEffect, useState } from "react";
 import { SvgIcon } from "../SvgIcon";
 import { ScrollUpContainer } from "./styles";

@@ -1,3 +1,4 @@
+//Se le otorga diseño y estilo al 'middle block'
 import styled from "styled-components";
 
 export const MiddleBlockSection = styled("section")`

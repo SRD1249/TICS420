@@ -1,3 +1,4 @@
+//Aquí se le da el estilo a los botones
 import styled from "styled-components";
 
 export const StyledButton = styled("button")<any>`

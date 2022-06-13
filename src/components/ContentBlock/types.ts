@@ -1,3 +1,4 @@
+//Se le otorga el diseño
 export interface ContentBlockProps {
   icon: string;
   title: string;
