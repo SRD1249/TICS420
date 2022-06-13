@@ -1,81 +1,58 @@
-![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
+# *Proyecto Programación Profesional  2022*
 
+# Integrantes
+- Farid  Zalaquett
+- Matías Meza
+- Valentin Ossio
+# Profesor
+>Eduardo Diaz Cortes
+> Sección 1
 
-## Proyecto TICS420 Olmue Vive Turismo
+# Documentación
+> Se inicio el proyecto utilizando el témplate https://github.com/Adrinlol/landy-react-template
+Luego de varias reuniones con los otros grupos y el cliente se llego al acuerdo de que se creara una solución general la cual se le proporcionara al cliente. Seguidamente nuestro grupo se encargara de realizar la sección "Sobre Nosotros". 
 
-Objetivo del Proyecto: Crear un medio por el cual Olmue Vive Turismo sea capaz de agendar actividades de una manera mas eficaz y rapida mediante el uso de una
-pagina web.
+>**Nota: **Cabe destacar que como grupo realizaremos cierta parte del *Front*. Dentro de la documentación del BitBucket solamente se encuentra parte del Front End 
 
-En este proyecto se encuentrar trabajando una total de 4 Grupos distribuidos de la siguiente manera:
+>**Nota:** Cada grupo por separada poseerá  su propia documentación de co-fluence, uso de BitBucket y Jira
 
-- Grupos Santiago Seccion 1 : FrontEnd
-- Grupo Santiago Seccion 2: BackEnd
-- Grupo Viña Seccion 1: Diseño
-## Tabla de Contenidos
+> Para la implementación de la sección Sobre nosotros" creamos los siguientes archivos:
 
-- [Caracteristicas](#caracteristicas)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Special Thanks](#special-thanks)
-- [Usage](#usage)
-- [License](#license)
+- **AboutUS.json**
+- **DondeEstamos.json**
+- **ValorSocial.json** 
 
-## Caracteristicas
+> Dentro de la carpeta About editamos el archivo:
 
-En este respositorio se encontrara todo lo enfocado al Front End del Proyecto, donde hicimos uso inicial de una platilla la cual se adaptara a las necesidades que teniamos, la plantilla tiene las siguientes caracteristicas:
+- **index.tsx**
 
-- Facil de utilizar y entender
+>**Nota:** Actualmente el repositorio es compartido y utilizado por todos los grupos. Por lo que  todo lo reflejado en la página web es el trabajo contribuido por cada uno de ellos para lograr la solución propuesta.
 
-- Contenidos y Componentes en distintas carpetas para facil edicion
+En este momento de desarrollo la página web ya tiene coherencia en colores, formatos y contenido. También logramos implementar Google Maps a través de una API para JavaScript en la página sobre nosotros. Aún falta ajustar detalles de información que tiene que proporcionar el cliente, cómo datos de la empresa y su historia, de esta manera enriquecer la página con información completamente precisa sobre Olmué Vive Turismo.
 
-- Soporte para 2 Idiomas
+Durante este nuevo Sprint comprendido desde el 14 de mayo hasta el 14 de junio realizamos los siguientes modificaciones en los archivos
+> En la carpeta ContentBlock dentro de esta encontramos dos carpetas, en especifico modificamos la carpeta LeftContentBlock en la cual modificamos el siguiente archivo:
 
-- Bloques de Contenido personalizables y animados
+- **index.tsx** , *dentro de esta realizamos cambios en la estructura de los iconos para poder agrandarlos y que se vieran de mejor manera. Además agregamos "Fade" para así poder crear una especie de efecto a la hora de observar la pagina para que sea de mejor gusto visual para el espectador*
+- **style.ts**, *dentro de esta modificamos "MinTitle y Minpara" para así poder modificar los "Sub-textos" que acompañan a las imágenes y pueden ser legibles para el lector.*
 
-- Escrita principalmente en TypeScript y con los ultimas mejoras de React
+> Además, dentro de la carpeta pages modificamos la carpeta:
 
+- **About**, *en esta lo que realizamos fue específicamente modificar el archivo index.tsx que se encuentra dentro de esta. Una vez dentro la modificamos y unimos nuestros containers con los de los otros grupos para así poder ir uniendo cierta parte de la pagina web e ir alcanzando el producto final, en esta también le añadimos un "ScrollToTop".*
 
-Estructura del proyecto:
+> Con respecto a la coherencia con el formato, los colores, las letras, el tamaño de las letras...etc. Lo que hicimos fue modificar dentro de la carpeta Styles el archivo:
 
-- Los distintos componentes de la pagina web se encuentran separados en distintas carpetas tales como: Components, Contents, Pages, etc y son llamados cuando se les requiere
-- En la carpeta public se encuentran todos los archivos correspondientes a imagenes y fuentes, mientras que en la carpeta src es donde estan los componentes de la pagina separados en carpetas y comentados segun su funcion
+- **styles.ts**, en este lo que esencialmente hicimos fue modificar el Font de las letras, su tamaño y sus colores para que concordaran con las actualizaciones hecha al proyecto por lo demás grupos e ir consiguiendo coherencia dentro de esta.
 
+> Finalmente, en este es sprint realizamos las siguientes correciones menores:
 
-## Demo
-
-Demostracion de aspecto basico y funcionalidad de la plantilla utilizada 👉️ https://landy-web.netlify.app/
-
-
-### Installation
-
-Para visualizar la pagina es necesario tener una versiona actualizada de node.js e instalar los node_modules en la carpeta en la que se vaya a descargar el repositorio
-Por lo que el proceso desde cero para instalar este repositorio es:
-
-
-```
-//En Git Bash
-git clone https://github.com/SRD1249/TICS420
-// En terminal 
-npm install
-npm start
-```
-
-## Special thanks
-
-[whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
-
-
-## License
-
-Licensed under the MIT license.
-
-<!-- prettier-ignore-start -->
-[axios]: https://github.com/axios/axios
-[antd]: https://github.com/ant-design/ant-design
-[react-awesome-reveal]: https://www.npmjs.com/package/react-awesome-reveal
-[styled-componets]: https://github.com/styled-components/styled-components
-[i18next]: https://github.com/i18next/i18next
-[whoooa]: https://www.whoooa.rocks/
-[Landy]: https://www.npmjs.com/package/cra-template-adrinlol
-[Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
-<!-- prettier-ignore-end -->
+ - [x] Corregir tamaño fotos del Sobre Nosotros
+ - [x] Cambiar el tamaño de los textos que se encuentran en Sobre Nosotros
+ - [x] Mejorar el espaciado entre imágenes y texto
+ - [x] Añadir animaciones como Fade o Slide en la sección Sobre Nosotros
+ - [x] Determinar un tamaño (FontSize) a seguir, para estar a la par con los demás grupos
+ - [x] Arreglar errores menores de tipografía en los textos que se encuentran en Sobre Nosotros
+ - [x] Modificar ciertos iconos e ir alternándolos entre izquierda - derecha
+ - [x] Crear una sección "Contáctanos" dentro del Sobre Nosotros
+ - [ ] Agregar GPS integrado en la pagina en la parte "Donde estamos" que se encuentra dentro del Sobre Nosotros
+> **Nota:** Este ultimo punto, aunque el GPS este funcional e indique la dirección correctamente, aun no lo implementamos dentro de la pagina, ya que se encuentra con algunos errores que no nos permiten integrarlo de manera correcta
