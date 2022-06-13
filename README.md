@@ -7,9 +7,10 @@ Objetivo del Proyecto: Crear un medio por el cual Olmue Vive Turismo sea capaz d
 pagina web.
 
 En este proyecto se encuentrar trabajando una total de 4 Grupos distribuidos de la siguiente manera:
-Grupos Santiago Seccion 1 : FrontEnd
-Grupo Santiago Seccion 2: BackEnd
-Grupo Viña Seccion 1: Diseño
+
+- Grupos Santiago Seccion 1 : FrontEnd
+- Grupo Santiago Seccion 2: BackEnd
+- Grupo Viña Seccion 1: Diseño
 ## Tabla de Contenidos
 
 - [Caracteristicas](#caracteristicas)
@@ -32,6 +33,12 @@ En este respositorio se encontrara todo lo enfocado al Front End del Proyecto, d
 - Bloques de Contenido personalizables y animados
 
 - Escrita principalmente en TypeScript y con los ultimas mejoras de React
+
+
+Estructura del proyecto:
+
+- Los distintos componentes de la pagina web se encuentran separados en distintas carpetas tales como: Components, Contents, Pages, etc y son llamados cuando se les requiere
+- En la carpeta public se encuentran todos los archivos correspondientes a imagenes y fuentes, mientras que en la carpeta src es donde estan los componentes de la pagina separados en carpetas y comentados segun su funcion
 
 
 ## Demo
