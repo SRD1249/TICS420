@@ -1,4 +1,3 @@
-//Se le otorga el diseño al header
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";

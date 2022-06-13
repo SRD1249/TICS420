@@ -1,4 +1,3 @@
-//Se genera el componente ContactForm para la sección de contacto dentro de la página
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide, Zoom } from "react-awesome-reveal";

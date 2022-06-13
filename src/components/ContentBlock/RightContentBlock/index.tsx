@@ -1,4 +1,3 @@
-//Se genera el componente bloque de contenido derecho, que consta de una imagen y texto.
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";

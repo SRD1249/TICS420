@@ -1,4 +1,3 @@
-//Se le da estilo y diseño al footer
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 

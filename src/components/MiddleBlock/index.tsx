@@ -1,4 +1,3 @@
-//Se crea y se define el bloque de contenido 'middle block' que consta principalmente de texto en el centro de la imagen
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";

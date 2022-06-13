@@ -1,4 +1,3 @@
-//Se le otorga estilo al componente de contacto
 import styled from "styled-components";
 
 export const ContactContainer = styled("div")`

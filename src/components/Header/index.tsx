@@ -1,4 +1,3 @@
-//Se genera y se define el header de la página (parte superior)
 import {useState} from "react";
 import {Col, Drawer, Row} from "antd";
 import {withTranslation} from "react-i18next";

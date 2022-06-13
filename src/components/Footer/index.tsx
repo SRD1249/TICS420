@@ -1,4 +1,3 @@
-//Se genera y se define el footer de la página (parte inferior)
 import {Col, Row} from "antd";
 import {withTranslation} from "react-i18next";
 import {SvgIcon} from "../../common/SvgIcon";

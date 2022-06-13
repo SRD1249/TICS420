@@ -1,4 +1,3 @@
-//Aquí se le otorga estilo al bloque de contenido izquierdo.
 import styled from "styled-components";
 
 export const LeftContentSection = styled("section")`
@@ -37,7 +36,7 @@ export const MinTitle = styled("h6")`
   color: #000;
   font-family: "Motiva Sans Light", sans-serif;
 `;
-
+//Aqui modoficamos los pixeles del texto a 18px 
 export const MinPara = styled("p")`
-  font-size: 13px;
+  font-size: 18px;
 `;

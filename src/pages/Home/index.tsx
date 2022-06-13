@@ -1,4 +1,3 @@
-//Utilizando los componentes definidos dentro de la misma carpeta, se genera la distribución de la landing page
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";

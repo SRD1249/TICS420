@@ -1,4 +1,3 @@
-//Damos el estilo a los bloques input
 import styled from "styled-components";
 
 export const Container = styled("div")`

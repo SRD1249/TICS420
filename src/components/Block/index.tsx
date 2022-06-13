@@ -1,4 +1,3 @@
-//Se define el componente bloque, para utilizar en la página
 import { withTranslation } from "react-i18next";
 import { Container, TextWrapper, Content } from "./styles";
 

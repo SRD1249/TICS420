@@ -1,0 +1,17 @@
+{
+    "title": "SOMOS LA SOLUCIÓN PARA UNAS VACACIONES INOLVIDABLES           ",
+    "text": "Ofrecemos la más alta calidad , eficiencia y profesionalismo para que nuestros clientes vivan una experiencia única y confiable.",
+    "section": [
+      {
+        "title": "Why Antd?",
+        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "Why styled-components?",
+        "content": "Styled Components gives you total control over your components.",
+        "icon": "notes.svg"
+      }
+    ]
+  }
+  

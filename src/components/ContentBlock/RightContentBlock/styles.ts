@@ -1,4 +1,3 @@
-//Aquí se le otorga estilo al bloque de contenido derecho.
 import styled from "styled-components";
 
 export const RightBlockContainer = styled("section")`

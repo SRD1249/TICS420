@@ -1,4 +1,3 @@
-//Se le otorga el estilo al texto y al área
 import styled from "styled-components";
 
 export const StyledContainer = styled("div")`

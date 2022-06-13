@@ -1,4 +1,3 @@
-//Otorgamos estilo a la función scrolltotop
 import styled from "styled-components";
 
 export const ScrollUpContainer = styled("div")<any>`
