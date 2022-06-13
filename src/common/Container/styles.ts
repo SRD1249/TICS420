@@ -1,3 +1,4 @@
+//Aquí se le otorga el estilo a los contenedores a utilizar
 import styled from "styled-components";
 
 export const StyledContainer = styled("div")<any>`

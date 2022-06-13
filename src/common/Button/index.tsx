@@ -1,3 +1,4 @@
+//Creación de botones
 import { StyledButton } from "./styles";
 import { ButtonProps } from "../types";
 

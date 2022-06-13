@@ -1,3 +1,4 @@
+//Aquí se le otorga estilo al bloque de contenido izquierdo.
 import styled from "styled-components";
 
 export const LeftContentSection = styled("section")`

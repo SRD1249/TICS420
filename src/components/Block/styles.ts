@@ -1,3 +1,4 @@
+//Se le otorga estilo al componente bloque
 import styled from "styled-components";
 
 export const Content = styled("p")`

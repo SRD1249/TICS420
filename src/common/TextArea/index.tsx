@@ -1,3 +1,4 @@
+//Creamos un bloque para áreas de texto
 import { withTranslation } from "react-i18next";
 import { StyledTextArea, StyledContainer, Label } from "./styles";
 import { InputProps } from "../types";

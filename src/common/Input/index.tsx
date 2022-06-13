@@ -1,3 +1,4 @@
+//Creamos y definimos los bloques de input
 import { withTranslation } from "react-i18next";
 import { Container, StyledInput } from "./styles";
 import { Label } from "../TextArea/styles";
