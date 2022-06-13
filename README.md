@@ -23,7 +23,7 @@ Grupo Viña Seccion 1: Diseño
 
 En este respositorio se encontrara todo lo enfocado al Front End del Proyecto, donde hicimos uso inicial de una platilla la cual se adaptara a las necesidades que teniamos, la plantilla tiene las siguientes caracteristicas:
 
-- Facil de utilizaar y entender
+- Facil de utilizar y entender
 
 - Contenidos y Componentes en distintas carpetas para facil edicion
 
