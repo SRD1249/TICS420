@@ -11,6 +11,16 @@ En este proyecto se encuentrar trabajando una total de 4 Grupos distribuidos de 
 - Grupos Santiago Seccion 1 : FrontEnd
 - Grupo Santiago Seccion 2: BackEnd
 - Grupo Viña Seccion 1: Diseño
+
+Cabe destacar que dentro de este repositorio de GitHub se encuentran trabajando los Grupos 2 y 5 de la seccion de Santiago.
+
+
+## Branches 
+Las branches del Grupo 2 corresponde a:
+- feature/A1P-27-iniciar-avance-2
+- bugfix/A1P-31-arreglas-detalles-del-avance
+- feature/A1P-66-modificar-changelog-y-readme
+
 ## Tabla de Contenidos
 
 - [Caracteristicas](#caracteristicas)
