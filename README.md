@@ -17,14 +17,19 @@ Cabe destacar que dentro de este repositorio de GitHub se encuentran trabajando 
 Grupo 2:
 
 Matias Meza
+
 Valentin Ossio
+
 Farid Zalaquett
 
 Grupo 5:
 
 Miguel Figueroa
+
 Daniela Fuenzalida
+
 Vicente Quiñones
+
 Santiago Ramírez
 
 
