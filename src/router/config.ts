@@ -13,7 +13,12 @@ const routes = [
     path: "/services",
     exact: true,
     component: "Services",
-  }
+  },
+  {
+    path: "/faq",
+    exact: true,
+    component: "FAQ",
+  },
 ];
 
 export default routes;
