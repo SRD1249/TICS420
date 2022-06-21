@@ -14,6 +14,24 @@ En este proyecto se encuentrar trabajando una total de 4 Grupos distribuidos de 
 
 Cabe destacar que dentro de este repositorio de GitHub se encuentran trabajando los Grupos 2 y 5 de la seccion de Santiago.
 
+Grupo 2:
+
+Matias Meza
+
+Valentin Ossio
+
+Farid Zalaquett
+
+Grupo 5:
+
+Miguel Figueroa
+
+Daniela Fuenzalida
+
+Vicente Quiñones
+
+Santiago Ramírez
+
 
 ## Branches 
 Las branches del Grupo 2 corresponde a:
