@@ -1,7 +1,7 @@
 
 const settings = {
   dev: {
-    apiUrl: "http://localhost:8010",
+    apiUrl: "http://20.226.97.169",
   },
   staging: {
     apiUrl: "",
