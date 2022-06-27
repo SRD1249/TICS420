@@ -1,9 +1,10 @@
 //test
-import { lazy } from "react";
+import {lazy} from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import ServicesBlock from "./ServicesBlock";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -12,9 +13,10 @@ const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const Services = () => {
+
   return (
     <Container>
-      <ScrollToTop />
+      <ScrollToTop/>
       <ContentBlock
         type="right"
         title={IntroContent.title}
@@ -40,6 +42,7 @@ const Services = () => {
         content={ContactContent.text}
         id="contact"
       />
+      <ServicesBlock/>
     </Container>
   );
 };
