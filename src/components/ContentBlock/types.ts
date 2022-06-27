@@ -6,5 +6,5 @@ export interface ContentBlockProps {
   button?: any;
   t?: any;
   id: string;
-  type?: string;
+  type?: ("right" | "left");
 }
