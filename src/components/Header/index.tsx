@@ -55,7 +55,9 @@ const Header = ({t}: any) => {
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{t("Reservas")}</Button>
+            <Button onClick={() => history.push('/Booking')}>
+              {t("Reservas")}
+            </Button>
           </Span>
         </CustomNavLinkSmall>
       </>

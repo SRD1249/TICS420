@@ -19,6 +19,11 @@ const routes = [
     exact: true,
     component: "FAQ",
   },
+  {
+    path: "/booking",
+    exact: true,
+    component: "Booking",
+  },
 ];
 
 export default routes;

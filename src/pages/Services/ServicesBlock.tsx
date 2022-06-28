@@ -7,7 +7,7 @@ import {getActivities} from "../../api/eventsAndActivities";
 
 
 const ServicesBlock = () => {
-  const activityApi = useApi(getActivities);
+  const activityApi = useApi<Activity>(getActivities);
 
   useEffect(() => {
       activityApi.get();

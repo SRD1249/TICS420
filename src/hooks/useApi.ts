@@ -1,9 +1,9 @@
 import {useState} from "react";
 
-const useApi = (apiFunc: Function) => {
-  const [data, setData] = useState([]);
-  const [error, setError] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+const useApi = <T>(apiFunc: Function) => {
+  const [data, setData] = useState<T[]>([]);
+  const [error, setError] = useState<Boolean>(false);
+  const [isLoading, setIsLoading] = useState<Boolean>(false);
 
   const get = async () => {
     setIsLoading(true);
