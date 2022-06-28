@@ -24,6 +24,7 @@ const ServicesBlock = () => {
   }
 
   const ServicesContent = () => {
+    console.log(activityApi.data);
     return (
       <>
         {activityApi.data.map((activity: Activity, index) => {
@@ -34,7 +35,7 @@ const ServicesBlock = () => {
                 key={activity.id}
                 title={activity.name}
                 content={activity.description}
-                icon={"Cabalgata.png"}
+                icon={activity.image ? activity.image : "Cabalgata.png"}
               />
             )
           }

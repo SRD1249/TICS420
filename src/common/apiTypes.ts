@@ -4,4 +4,5 @@ export interface Activity {
   description: string;
   capacity: number;
   duration: number;
+  image: string;
 }
