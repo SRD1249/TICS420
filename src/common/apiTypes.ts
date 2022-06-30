@@ -19,6 +19,18 @@ export interface Event {
   str_end_time: string;
 }
 
+export interface FAQCategories{
+  name: string;
+  id: number;
+  faqs: FAQ[];
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
+  id: number;
+}
+
 export interface EventDay {
   [key: string]: Event[];
 }
