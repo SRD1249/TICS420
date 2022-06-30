@@ -34,3 +34,11 @@ export interface FAQ {
 export interface EventDay {
   [key: string]: Event[];
 }
+
+export interface ContactForm{
+  first_name?: string;
+  last_name?:string;
+  email?: string;
+  phone?: string;
+  message?: string;
+}

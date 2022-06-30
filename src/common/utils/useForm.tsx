@@ -1,12 +1,20 @@
 import React, {useEffect, useState} from "react";
 import {notification} from "antd";
 import axios from "axios";
+import {postContactForm} from "../../api/misc"
+import {ContactForm} from "../apiTypes"
 
 export const useForm = (validate: any) => {
-  const [values, setValues] = useState({});
+  const [values, setValues] = useState<{data:ContactForm}>({
+    first_name: "",
+    last_name: "",
+    email: "",
+    phone: "",
+    message: ""
+  });
   const [errors, setErrors] = useState({});
   const [shouldSubmit, setShouldSubmit] = useState(false);
-
+  
   const openSuccessNotificationWithIcon = () => {
     notification["success"]({
       message: "Success",
@@ -25,30 +33,20 @@ export const useForm = (validate: any) => {
   const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     const _errors = validate(values);
-    console.log(_errors);
     setErrors(_errors);
     if (Object.keys(_errors).length === 0) {
       // Your url for API
-      const url = "";
-      if (Object.keys(values).length === 3) {
-        axios
-          .post(url, {
-            ...values,
-          })
-          .then(() => {
-            setShouldSubmit(true);
-          })
-          .catch((error) => {
-            console.log(error);
-            openFailNotificationWithIcon();
-          });
-      }
+      postContactForm(values)
+      .catch((error:any) => {
+        console.log(error);
+        openFailNotificationWithIcon();
+      });
     }
   };
 
   useEffect(() => {
     if (Object.keys(errors).length === 0 && shouldSubmit) {
-      setValues("");
+      setValues({});
       openSuccessNotificationWithIcon();
     }
   }, [errors, shouldSubmit]);

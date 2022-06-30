@@ -38,12 +38,22 @@ const Contact = ({title, content, id, t}: ContactProps) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  value={values.name || ""}
+                  name="first_name"
+                  placeholder="Your First Name"
+                  value={values.first_name || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="name"/>
+                <ValidationType type="first name"/>
+              </Col>
+              <Col span={24}>
+                <Input
+                  type="text"
+                  name="last_name"
+                  placeholder="Your Last Name"
+                  value={values.last_name || ""}
+                  onChange={handleChange}
+                />
+                <ValidationType type="last name"/>
               </Col>
               <Col span={24}>
                 <Input
