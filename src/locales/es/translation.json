@@ -11,7 +11,7 @@
   "Software Principles": "Principios de software",
   "Support Center": "Centro de Apoyo",
   "Customer Support": "Atención al cliente",
-  "Address": "Habla A",
+  "Address": "dirección",
   "Press": "Prensa",
   "Careers & Culture": "Carreras & cultura",
   "Language": "Language",
@@ -19,10 +19,13 @@
   "Learn more": "Más información",
   "Get started": "Comenzar",
   "Submit": "Enviar",
-  "Message" : "Mensaje",
-  "Your Message": "Tu Mensaje",
+  "message" : "mensaje",
+  "Your Message": "Tu mensaje",
   "Name" : "Nombre",
-  "Your Name": "Tu nombre",
+  "Your First Name": "Tu nombre",
+  "Your Last Name": "Tu apellido",
   "Email" : "Email",
-  "Your Email": "Tu correo electrónico"
+  "Your Email": "Tu correo electrónico",
+  "first_name": "nombre",
+  "last_name": "apellido"
 }
