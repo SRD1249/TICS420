@@ -7,7 +7,7 @@ import {getActivities} from "../../api/eventsAndActivities";
 
 
 const ServicesBlock = () => {
-  const activityApi = useApi<Activity>(getActivities);
+  const activityApi = useApi<Activity[]>(getActivities);
 
   useEffect(() => {
       activityApi.get();
@@ -27,7 +27,7 @@ const ServicesBlock = () => {
     console.log(activityApi.data);
     return (
       <>
-        {activityApi.data.map((activity: Activity, index) => {
+        {activityApi.data?.map((activity: Activity, index) => {
             const _type = index % 2 === 0 ? "left" : "right";
             return (<ContentBlock
                 type={_type}

@@ -19,7 +19,7 @@ export interface Event {
   str_end_time: string;
 }
 
-export interface FAQCategories{
+export interface FAQCategories {
   name: string;
   id: number;
   faqs: FAQ[];
@@ -35,10 +35,33 @@ export interface EventDay {
   [key: string]: Event[];
 }
 
-export interface ContactForm{
+export interface ContactForm {
   first_name?: string;
-  last_name?:string;
+  last_name?: string;
   email?: string;
   phone?: string;
   message?: string;
+}
+
+export interface Client {
+  first_name: string;
+  last_name: string;
+  email: string;
+  phone: string;
+  rute: string;
+}
+
+export interface BookingInstance {
+  id: number;
+  event: Event;
+  client: Client;
+  is_confirmed: boolean;
+  is_cancelled: boolean;
+  paid_amount: number;
+  cancel: string;
+  confirm: string;
+}
+
+export interface BookingInstanceByPublicIdProps {
+  publicId: string;
 }

@@ -6,7 +6,7 @@ import useApi from "../../hooks/useApi";
 import {getFAQ} from "../../api/misc";
 
 const FAQBlock = () => {
-    const faqApi = useApi<FAQCategories>(getFAQ);
+    const faqApi = useApi<FAQCategories[]>(getFAQ);
 
     useEffect(()=>{
         faqApi.get();
@@ -23,11 +23,11 @@ const FAQBlock = () => {
     }
 
     const FAQContent = () => {
-        
+
         const {data} = faqApi;
         return(
             <>
-                {data.map(function (category){
+                {data?.map(function (category){
                     return(
                     <div key={category.id.toString()}>
                         <h1>
@@ -44,7 +44,7 @@ const FAQBlock = () => {
                     </div>)
                 })}
             </>
-        ) 
+        )
     }
 
     if (faqApi.error) {

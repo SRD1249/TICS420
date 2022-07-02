@@ -6,7 +6,7 @@ import {Event, EventDay} from "../../common/apiTypes";
 
 
 const BookingBlock = () => {
-  const eventsApi = useApi<EventDay>(getEvents);
+  const eventsApi = useApi<EventDay[]>(getEvents);
 
   useEffect(() => {
       eventsApi.get();
@@ -41,7 +41,7 @@ const BookingBlock = () => {
     return (
       <>
         {
-          data.map(function (day) {
+          data?.map(function (day) {
             return Object.entries(day).map(function ([key, _value]) {
               return (
                 <div key={key.toString()}>

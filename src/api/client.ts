@@ -1,7 +1,7 @@
 import {create} from "apisauce";
 import settings from "./config";
 
-const apiClient = create({
+const client = create({
   baseURL: settings.apiUrl,
   timeout: 10000,
   headers: {
@@ -9,4 +9,4 @@ const apiClient = create({
   },
 });
 
-export default apiClient;
+export default client;

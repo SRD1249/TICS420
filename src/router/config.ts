@@ -20,7 +20,7 @@ const routes = [
     component: "FAQ",
   },
   {
-    path: "/booking",
+    path: "/booking/:publicId?" ,
     exact: true,
     component: "Booking",
   },

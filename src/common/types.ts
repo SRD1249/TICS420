@@ -36,3 +36,7 @@ export interface validateProps {
   message: string;
   email: string;
 }
+
+export interface publicIdParam {
+  publicId: string;
+}
