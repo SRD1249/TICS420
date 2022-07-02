@@ -5,13 +5,7 @@ import {postContactForm} from "../../api/misc"
 import {ContactForm} from "../apiTypes"
 
 export const useForm = (validate: any) => {
-  const [values, setValues] = useState<{data:ContactForm}>({
-    first_name: "",
-    last_name: "",
-    email: "",
-    phone: "",
-    message: ""
-  });
+  const [values, setValues] = useState<ContactForm>({});
   const [errors, setErrors] = useState({});
   const [shouldSubmit, setShouldSubmit] = useState(false);
   
@@ -36,6 +30,7 @@ export const useForm = (validate: any) => {
     setErrors(_errors);
     if (Object.keys(_errors).length === 0) {
       // Your url for API
+      setShouldSubmit(true);
       postContactForm(values)
       .catch((error:any) => {
         console.log(error);
@@ -48,6 +43,7 @@ export const useForm = (validate: any) => {
     if (Object.keys(errors).length === 0 && shouldSubmit) {
       setValues({});
       openSuccessNotificationWithIcon();
+      setShouldSubmit(false);
     }
   }, [errors, shouldSubmit]);
 
