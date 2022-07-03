@@ -1,19 +1,28 @@
 import {useEffect} from "react";
-import {Row, Space, Spin} from 'antd';
+import {Button, Row, Space, Spin} from 'antd';
 import useApi from "../../hooks/useApi";
-import {getBookingInstance} from "../../api/bookings";
+import {getBookingInstance,getBookingConfirm,getBookingCancel} from "../../api/bookings";
 import {BookingInstance, BookingInstanceByPublicIdProps} from "../../common/apiTypes";
+import { ButtonContainer } from "../../components/ContactForm/styles";
 
 
 const BookingInstanceByPublicId = ({publicId}: BookingInstanceByPublicIdProps) => {
-  const eventsApi = useApi<BookingInstance>(getBookingInstance);
-
+  const bookingApi = useApi<BookingInstance>(getBookingInstance);
+  const confirmBookingApi = useApi(getBookingConfirm);
+  const cancelBookingApi = useApi(getBookingCancel);
+  
   useEffect(() => {
-      eventsApi.get(publicId);
+      bookingApi.get(publicId);
     },
     []
   )
+  function handleConfirm(){
+    confirmBookingApi.get(publicId);
+  }
 
+  function handleCancel(){
+    cancelBookingApi.get(publicId);
+  }
 
   const LoadingContent = () => {
     return (
@@ -30,22 +39,26 @@ const BookingInstanceByPublicId = ({publicId}: BookingInstanceByPublicIdProps) =
           {"Booking Instance"}
         </h1>
         <p>
-          {eventsApi.data?.event.activity.name}
+          {bookingApi.data?.event.activity.name}
         </p>
         <p>
-          {eventsApi.data?.client.first_name} {eventsApi.data?.client.last_name}
+          {bookingApi.data?.client.first_name} {bookingApi.data?.client.last_name}
         </p>
         <p>
-          {eventsApi.data?.is_confirmed ? "Confirmed" : "Not Confirmed"}
+          {bookingApi.data?.is_confirmed ? "Confirmed" : "Not Confirmed"}
         </p>
         <p>
-          {eventsApi.data?.is_cancelled ? "Cancelled" : "Not Cancelled"}
+          {bookingApi.data?.is_cancelled ? "Cancelled" : "Not Cancelled"}
         </p>
+        <ButtonContainer>
+          <Button name = 'confirm' onClick={()=>handleConfirm()}>Confirm</Button>
+          <Button name = 'cancel' onClick={()=>handleCancel()}>Cancel</Button>
+        </ButtonContainer>
       </div>
     )
   }
 
-  if (eventsApi.error) {
+  if (bookingApi.error) {
     return (<h1>
       {"La reserva solicitada no existe"}
     </h1>)
@@ -53,7 +66,7 @@ const BookingInstanceByPublicId = ({publicId}: BookingInstanceByPublicIdProps) =
 
   return (
     <Row id={"intro"}>
-      {eventsApi.isLoading ? <LoadingContent/> : <BookingInstance/>}
+      {bookingApi.isLoading ? <LoadingContent/> : <BookingInstance/>}
     </Row>
   );
 }
