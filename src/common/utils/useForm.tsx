@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import {notification} from "antd";
-import axios from "axios";
 import {postContactForm} from "../../api/misc"
 import {ContactForm} from "../apiTypes"
 
@@ -36,6 +35,7 @@ export const useForm = (validate: any) => {
         console.log(error);
         openFailNotificationWithIcon();
       });
+      event.target.reset();
     }
   };
 
