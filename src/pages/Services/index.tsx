@@ -5,6 +5,7 @@ import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import ServicesBlock from "./ServicesBlock";
+import Servicesintro from "../../content/Servicesintro.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -17,14 +18,7 @@ const Services = () => {
   return (
     <Container>
       <ScrollToTop/>
-      <ContentBlock
-        type="right"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        button={IntroContent.button}
-        icon="OLMUE.jpg"
-        id="intro"
-      />
+      
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
@@ -42,6 +36,7 @@ const Services = () => {
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
+
       />
     </Container>
   );

@@ -16,6 +16,7 @@ import {
   Para,
   Title,
 } from "./styles";
+import { IconMap } from "antd/lib/result";
 
 interface SocialLinkProps {
   href: string;
@@ -47,8 +48,14 @@ const Footer = ({t}: any) => {
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+            <SvgIcon
+                    src="unknown.png"
+                    aria-label="homepage"
+                    width="200px"
+                    height="100px"
+                  />
+              <Language>{t("")}</Language>
+              <Large to="/">{t("")}</Large>
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
@@ -79,9 +86,9 @@ const Footer = ({t}: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty/>
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Avenida Blanco Encalada frente a 4696</Para>
+              <Para>Olmué</Para>
+              <Para>Región de Valparaíso</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
