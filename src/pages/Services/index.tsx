@@ -37,12 +37,12 @@ const Services = () => {
         icon="Cabalgata.png"
         id="product"
       />
+      <ServicesBlock/>
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
       />
-      <ServicesBlock/>
     </Container>
   );
 };
