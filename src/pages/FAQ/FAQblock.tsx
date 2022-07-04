@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 import {Space, Spin, Row} from 'antd';
-import ContentBlock from "../../components/ContentBlock";
+import Block from "../../components/Block";
 import { FAQ, FAQCategories} from "../../common/apiTypes";
 import useApi from "../../hooks/useApi";
 import {getFAQ} from "../../api/misc";
@@ -26,18 +26,17 @@ const FAQBlock = () => {
 
         const {data} = faqApi;
         return(
-            <>
+            <>  
                 {data?.map(function (category){
                     return(
                     <div key={category.id.toString()}>
-                        <h1>
-                            {category.name}
-                        </h1>
                         {category.faqs.map(function(faq){
                             return(
                                 <div key= {faq.id.toString()}>
-                                    <p>{"P: "+ faq.question}</p>
-                                    <p>{"Q: "+ faq.answer}</p>
+                                    <Block
+                                    title={faq.question}
+                                    content={faq.answer}
+                                    />
                                 </div>
                             )
                         })}
