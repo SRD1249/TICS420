@@ -1,6 +1,5 @@
 ![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
 
-
 ## Proyecto TICS420 Olmue Vive Turismo
 
 Objetivo del Proyecto: Crear un medio por el cual Olmue Vive Turismo sea capaz de agendar actividades de una manera mas eficaz y rapida mediante el uso de una
@@ -32,12 +31,14 @@ Vicente Quiñones
 
 Santiago Ramírez
 
+## Branches
 
-## Branches 
 Las branches del Grupo 2 corresponde a:
+
 - feature/A1P-27-iniciar-avance-2
 - bugfix/A1P-31-arreglas-detalles-del-avance
 - feature/A1P-66-modificar-changelog-y-readme
+- A1P-86-Modificaciones-Preguntas-Frecuentes
 
 ## Tabla de Contenidos
 
@@ -62,28 +63,24 @@ En este respositorio se encontrara todo lo enfocado al Front End del Proyecto, d
 
 - Escrita principalmente en TypeScript y con los ultimas mejoras de React
 
-
 Estructura del proyecto:
 
 - Los distintos componentes de la pagina web se encuentran separados en distintas carpetas tales como: Components, Contents, Pages, etc y son llamados cuando se les requiere
 - En la carpeta public se encuentran todos los archivos correspondientes a imagenes y fuentes, mientras que en la carpeta src es donde estan los componentes de la pagina separados en carpetas y comentados segun su funcion
 
-
 ## Demo
 
 Demostracion de aspecto basico y funcionalidad de la plantilla utilizada 👉️ https://landy-web.netlify.app/
-
 
 ### Installation
 
 Para visualizar la pagina es necesario tener una versiona actualizada de node.js e instalar los node_modules en la carpeta en la que se vaya a descargar el repositorio
 Por lo que el proceso desde cero para instalar este repositorio es:
 
-
 ```
 //En Git Bash
 git clone https://github.com/SRD1249/TICS420
-// En terminal 
+// En terminal
 npm install
 npm start
 ```
@@ -91,7 +88,6 @@ npm start
 ## Special thanks
 
 [whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
-
 
 ## License
 
