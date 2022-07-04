@@ -11,7 +11,7 @@ const FAQ = () => {
     <Container>
       <ScrollToTop/>
       <Block
-        title = "Preguntas Frecuentes"
+        title = ""
         content =""
         />
       <FAQBlock/>

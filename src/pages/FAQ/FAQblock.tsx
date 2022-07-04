@@ -26,7 +26,8 @@ const FAQBlock = () => {
 
         const {data} = faqApi;
         return(
-            <>  
+
+            <><h6>Preguntas Frecuentes</h6>
                 {data?.map(function (category){
                     return(
                     <div key={category.id.toString()}>
