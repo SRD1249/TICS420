@@ -6,10 +6,10 @@ export const Content = styled("p")`
 
 export const Container = styled("div")`
   position: relative;
-  max-width: 700px;
+  max-width: 1200px;
 `;
 
 export const TextWrapper = styled("div")`
   border-radius: 3rem;
-  max-width: 400px;
+  max-width: 1000px;
 `;
