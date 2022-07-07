@@ -38,6 +38,9 @@ Las branches del Grupo 2 corresponde a:
 - feature/A1P-27-iniciar-avance-2
 - bugfix/A1P-31-arreglas-detalles-del-avance
 - feature/A1P-66-modificar-changelog-y-readme
+- A1P-71-Correciones-diseño
+- A1P-86-Modificaciones-Preguntas-Frecuentes
+- A1P-72-Modifcaciones
 
 ## Tabla de Contenidos
 
